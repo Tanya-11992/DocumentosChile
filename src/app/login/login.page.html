@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Documentos Chile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="flex-center">
+      <ion-card>
+        
+        <ion-card-content>
+          <div class="logo">
+            <img src="assets\img\logo-icon.png" width="80" height="80">
+          </div>
+          <h6 class="bajada">Bienvenidos a Documentos Chile</h6>
+           
+          <ion-item lines="full">
+            <ion-label position="floating" color="primary"><b>Usuario</b></ion-label>
+            <!-- Usamos ngModel para indicarle al imput el objeto a utilizar-->
+            <ion-input type="text" color="primary" [(ngModel)]="user.usuario"></ion-input>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-label position="floating" color="primary"><b>Password</b></ion-label>
+             <!-- Usamos ngModel para indicarle al imput el objeto a utilizar-->
+            <ion-input type="password" color="primary" [(ngModel)]="user.password"></ion-input>
+          </ion-item>
+          <ion-row>
+            <ion-col>
+              <!-- Indicamos meidante el (click) la funcion a quien referencia -->
+              <ion-button class="duda"  expand="full" (click)="ingresar()">Ingresar</ion-button>
+              <ion-label class="dud" (click)="presentAlert()">Dudas</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>  
+    </div>  
+  </ion-content>
+

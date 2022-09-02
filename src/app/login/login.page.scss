@@ -1,0 +1,60 @@
+.flex-center{
+  margin-top:30px;
+}
+
+ion-content{
+  --padding-top:20px;
+  --padding-bottom:20px;
+  --padding-end:20px;
+  --padding-start:20px;
+}
+
+ion-item{
+  --padding-bottom:10px;
+}
+
+ion-card-header{
+  background:white;
+}
+   
+ion-card-content{
+  background:white;
+}
+  
+.subtitulo{
+  color:black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+  
+ion-button {
+  margin: 40px 0 20px 0;
+}
+  
+.duda{
+  font-size: 12px;
+  margin: 30px 0 20px 0;
+}
+
+
+.dud{
+  font-size: 14px;
+  margin: -10px 0 20px 0;
+  color:#3880ff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  padding: 30px 0 10px 95px;
+}
+
+.bajada{
+  font-size: 16px;
+  margin: 0 0 40px 0;
+  color:#3880ff; 
+  text-align: center;
+}

@@ -1,0 +1,136 @@
+ion-content{
+    --padding-top:10px;
+    --padding-bottom:10px;
+    --padding-end:10px;
+    --padding-start:10px;
+  }
+  
+  ion-item{
+    --padding-bottom:10px;
+  }
+  
+  .salir{
+    padding: 2px 2px 2px 2px;
+  }
+
+  ion-card-header{
+    background:white;
+  }
+  
+  ion-content {
+    --background: var(--ion-color-light-tint);
+  }
+  
+  ion-item{
+    --color: var(--ion-color-primary);
+  }
+  
+  ion-icon{
+    color: black;
+  }
+   
+  ion-card-content{
+    background:white;
+  }
+
+  ion-card{
+    background:white;
+  }
+  
+  ion-col{
+    background:white;
+  }
+  
+  .subtitulo{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+    margin: 8px 0 5px 0;
+    text-align: justify;
+  }
+
+  ion-card-title {
+    color:black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 20px 0 20px;
+  }
+  
+  .leyenda {
+    color:white;
+    font-size: 12px;
+    margin:3px 0 0 20px;
+  }
+
+  ion-button {
+    margin: 5px 0 5px 0;
+  }
+
+  .duda{
+    margin: -5px 10px 5px 10px;
+    color: #3880ff;
+    --background:#ffffff;
+    --box-shadow: #fffffff;
+    border: 1px solid #3880ff;
+    border-radius: 8px;
+  }
+
+  .datos{
+    margin: 5px 10px 5px 10px;
+    color: #3880ff;
+    --background:#ffffff;
+    --box-shadow: #fffffff;
+  }
+
+  .btn{
+    margin: -5px 10px 5px 10px;
+    color: black;
+    --background:#ffffff;
+    --box-shadow: #fffffff;
+  }
+
+  .acordeon1{
+    padding: 10px 10px 10px 10px;
+    color: black;
+    --background:#ffffff;
+    --box-shadow: #fffffff;
+  }
+
+  ion-accordion{
+    background:#ffffff;
+
+  }
+
+
+  .btn2{
+    margin: -5px 10px 30px 10px;
+    color: black;
+    --background:#ffffff;
+    --box-shadow: #fffffff;
+  }
+  
+  .footer{
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+    height: 60px;
+    padding-top: 20px;
+  }
+
+
+  .pf{
+    --background: rgba(0, 0, 255, 0.5);
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px 20px 15px;
+    float: right;
+  }
+  
+
+  .icono{
+    color: white;
+    font-size: 20px;
+  }
+  

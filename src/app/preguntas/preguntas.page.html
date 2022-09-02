@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    </ion-buttons>
+    <ion-title>Documentos Chile</ion-title>
+    <h1 class="leyenda">Portal de información de trámites para extranjeros</h1>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div lass="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Preguntas Frecuentes</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <h3 class="subtitulo">Esta sección reune las preguntas más habituales que te puedan surgin en relación a
+          nuestra aplicacion móbil. En caso de tener más dudas sobre algun trámite recuerda que nos puedes contactar
+          a través de los siguientes canales de contacto.</h3>
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+         <ion-button class="duda" expand="full" >Datos de Contacto</ion-button>
+         <div class="collapsible" [@collapse]="collapsed">
+            <ion-button class="btn">
+              <ion-icon slot="start" name="call-outline" size="small"></ion-icon>
+              600 600 1234
+            </ion-button>
+            <ion-button class="btn2">
+              <ion-icon slot="start" name="mail-outline" size="small"></ion-icon>
+                contacto@documentochile.cl
+            </ion-button>
+         </div>
+            <ion-button  class="datos" *ngIf="collapsed" size="small" (click)="expand()">Ver</ion-button>
+            <ion-button class="datos" *ngIf="!collapsed" size="small" (click)="collapse()">Cerrar</ion-button>
+        </ion-col>  
+      </ion-row>   
+      <ion-accordion-group>
+        <ion-accordion value="first" class="acordeon1">
+          <ion-item slot="header" color="primary">
+            <ion-label> QUIENES SOMOS</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            Somos un grupo de 4 mujeres chilenas: 2 abogadas, 1 asistente social, 1 contadora que decidimos unirnos y ayudar a los
+            extranjeros residentes en Chile para que puedan tener facil acceso a los documentos que necesitan.
+          </div>
+        </ion-accordion>
+
+
+        <ion-accordion value="second" class="acordeon1">
+          <ion-item slot="header" color="primary">
+            <ion-label>QUÉ HACEMOS</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            Nuestro Servicio atiende a todos los ciudadanos extrajeros habitan el país, ayudandoloes con la información
+            que necesitan para mantenerse en nuestro país y poder acceder a los servicios que ofrece el gobierno.
+          </div>
+        </ion-accordion>
+        <ion-accordion value="third" class="acordeon1">
+          <ion-item slot="header" color="primary">
+            <ion-label>TRABAJA CON NOSOTROS</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            Somos un Servicio que día a día incorpora grandes desafíos para satisfacer las demandas de nuestros clientes.
+            ¿Quieres ser parte de nuestro equipo de trabajo?
+            Si deseas trabajar en nuestra institución, debes enviar un email a recursoshumano@documentochile.cl </div>
+        </ion-accordion>
+      </ion-accordion-group>
+
+      <ion-button class="pf" (click)="regresar()">
+        <div class="icono">
+        <ion-icon slot="end" name="home-outline"></ion-icon>
+      </div>
+      </ion-button> 
+
+    </ion-card>
+  </div>    
+</ion-content>
+
+<ion-footer collapse="fade">
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <div class="footer">Derechos Reservados | @Tanya Suazo 2022</div>
+  </ion-toolbar>
+</ion-footer>

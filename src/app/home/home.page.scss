@@ -1,0 +1,113 @@
+ion-content{
+  --padding-top:10px;
+  --padding-bottom:10px;
+  --padding-end:10px;
+  --padding-start:10px;
+}
+
+ion-item{
+  --padding-bottom:10px;
+}
+
+.salir{
+  padding: 2px 2px 2px 2px;
+}
+
+ion-card-header{
+  background:white;
+}
+
+ion-content {
+  --background: var(--ion-color-light-tint);
+}
+
+ion-item{
+  --color: var(--ion-color-primary);
+}
+
+ion-icon{
+  color: black;
+}
+ 
+ion-card-content{
+  background:white;
+}
+
+
+
+ion-card-title {
+  color:black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 20px 0 20px;
+}
+
+.leyenda {
+  color:white;
+  font-size: 12px;
+  margin:3px 0 0 20px;
+}
+
+ion-card{
+  background:white;
+}
+
+ion-col{
+  background:white;
+}
+
+.subtitulo{
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+  margin: 8px 0 22px 0;
+}
+
+
+ion-button {
+  margin: 5px 0 5px 0;
+}
+
+.footer{
+  text-align: center;
+  font-size: 12px;
+  background-color: black;
+  height: 60px;
+  padding-top: 20px;
+}
+
+
+.mas{
+  margin: 10px 0 10px 0; 
+  font-size: 12px;
+  background: rgba(0, 0, 255, 0.5);
+}
+
+.cuadro1{
+  margin: 0 0 20px 0;
+}
+
+.cuadro2{
+  margin: 0 0 20px 0;
+}
+
+.cuadro3{
+  margin: 0 0 10px 0;
+}
+
+.pf{
+  --background: rgba(0, 0, 255, 0.5);
+  width: 30px;
+  height: 30px;
+  margin: 10px 15px 20px 15px;
+  float: right;
+}
+
+
+.icono{
+  color: white;
+  font-size: 20px;
+}
+
