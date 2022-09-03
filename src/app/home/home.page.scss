@@ -17,6 +17,10 @@ ion-card-header{
   background:white;
 }
 
+ion-card-content{
+  background:white;
+}
+
 ion-content {
   --background: var(--ion-color-light-tint);
 }
@@ -32,8 +36,6 @@ ion-icon{
 ion-card-content{
   background:white;
 }
-
-
 
 ion-card-title {
   color:black;
@@ -87,14 +89,17 @@ ion-button {
 
 .cuadro1{
   margin: 0 0 20px 0;
+  border-left: 10px solid #0FE3E8;
 }
 
 .cuadro2{
   margin: 0 0 20px 0;
+  border-left: 10px solid #0FE3E8;
 }
 
 .cuadro3{
   margin: 0 0 10px 0;
+  border-left: 10px solid #0FE3E8;
 }
 
 .pf{

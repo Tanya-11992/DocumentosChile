@@ -1,0 +1,48 @@
+ion-list{
+--background-color:white;
+}
+
+ion-item{
+ --background:white;
+ --color:Black;  
+}
+
+ion-label p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descripcion{
+ --background:Black !important;
+ height: 90px;
+ padding: 20px 0 20px 0;
+}
+
+ion-toolbar{
+ --background:Black;
+ padding: 20px 0 0 20px;
+}
+
+ion-content{
+--background:white !important;
+}
+    
+ion-icon{
+ color:Black; 
+}
+
+ion-list{
+    padding: 30px 25px 30px 0;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+    height: 60px;
+    padding-top: 20px;
+  }
+  
+
+
+        

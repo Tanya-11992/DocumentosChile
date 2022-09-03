@@ -4,9 +4,11 @@ ion-content{
     --padding-end:10px;
     --padding-start:10px;
   }
+
   
   ion-item{
     --padding-bottom:10px;
+    border-left: 10px solid #285199;
   }
   
   .salir{

@@ -1,4 +1,72 @@
 <ion-app>
 
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main">
+    <!--  the side menu  -->
+    <ion-menu side="start" menuId="first" contentId="main">
+      <ion-header>
+        <ion-toolbar>
+          <ion-item lines="none" class="descripcion">
+            <ion-avatar slot="start">
+              <img src="assets\img\logo-icon.png" alt="">
+            </ion-avatar>
+            <ion-label>
+              <p>
+                Bienvenida
+              </p>
+            </ion-label>
+          </ion-item>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle>
+            <ion-item [routerLink]="['/home']">
+              <ion-label>Home</ion-label>
+              <ion-icon slot="start" color="primary" name="home"></ion-icon>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item [routerLink]="['/preguntas']">
+              <ion-label>Preguntas Frecuentes</ion-label>
+              <ion-icon slot="start" color="primary" name="help-circle"></ion-icon>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-label>Nuestras Oficinas</ion-label>
+              <ion-icon slot="start" color="primary" name="storefront"></ion-icon>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-label>Sitios Relacionados</ion-label>
+              <ion-icon slot="start" color="primary" name="newspaper"></ion-icon>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item [routerLink]="['/login']">
+              <ion-label>Salir</ion-label>
+              <ion-icon slot="start" color="primary" name="person"></ion-icon>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+      <ion-footer collapse="fade">
+        <ion-toolbar>
+          <ion-title></ion-title>
+          <div class="footer">Derechos Reservados | @Tanya Suazo 2022</div>
+        </ion-toolbar>
+      </ion-footer>
+    </ion-menu>
+    <!-- the main content -->
+
+    <ion-router-outlet id="main"></ion-router-outlet>
+
+    
+  </ion-split-pane>
+
 </ion-app>
